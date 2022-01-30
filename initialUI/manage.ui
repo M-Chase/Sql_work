@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1122</width>
+    <height>858</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>17</y>
+     <width>1091</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>基金</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLineEdit" name="fundEdit"/>
+    </item>
+    <item row="0" column="6">
+     <widget class="QSpinBox" name="fundNum"/>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="fundBtn">
+      <property name="text">
+       <string>购买</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QWidget" name="widget" native="true">
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>461</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>类型</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="cardKindEdit"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>卡号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="cardEdit"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="cardBtn">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>240</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>办理</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="4" colspan="4">
+     <widget class="QTableWidget" name="fundTable"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>保险</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="insuranceEdit"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QSpinBox" name="insuranceNum"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="insuranceBtn">
+      <property name="text">
+       <string>购买</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>理财产品</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLineEdit" name="financeEdit"/>
+    </item>
+    <item row="2" column="6">
+     <widget class="QSpinBox" name="financesNum"/>
+    </item>
+    <item row="2" column="7">
+     <widget class="QPushButton" name="financeBtn">
+      <property name="text">
+       <string>购买</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="4">
+     <widget class="QTableWidget" name="insuranceTable"/>
+    </item>
+    <item row="3" column="4" colspan="4">
+     <widget class="QTableWidget" name="financesTable"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>银行卡</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
